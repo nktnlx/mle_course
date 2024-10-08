@@ -5,4 +5,5 @@ My projects and homework solutions for "Python" module:
 `01_python_basics.ipynb` - variables, data types, lists, sets, tuples, dictionaries, `if` statements, `for` and `while` loops, etc.   
 `02_python_functions_slices.ipynb` - functions, `try/except`, slicing, etc.   
 `03_pypi_venv.ipynb` - installing and importing libraries, creating virtual environments and installing packages from `requirements.txt`    
-`04_pandas_basics.ipynb` - `pandas`, `numpy` and `matplotlib` basics  
+`04_pandas_basics.ipynb` - `pandas`, `numpy` and `matplotlib` basics   
+`05_pandas.ipynb` - exploratory data analysis of a restaurants dataset using `pandas`  
