@@ -8,4 +8,5 @@ My projects and homework solutions for "Python" module:
 `04_pandas_basics.ipynb` - `pandas`, `numpy` and `matplotlib` basics   
 `05_pandas.ipynb` - exploratory data analysis of a restaurants dataset using `pandas`  
 `05_pandas_mini_project.ipynb` - playstore apps data analysis mini project using `pandas`  
-`06_databases.ipynb` - querying data from PostgreSQL using `pandas` and `psycopg2` library  
+`06_databases.ipynb` - querying data from PostgreSQL using `pandas` and `psycopg2` library    
+`07_oop.ipynb` - Object-oriented programming basics (`OOP`)  
