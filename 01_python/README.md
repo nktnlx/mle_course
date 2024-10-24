@@ -10,4 +10,5 @@ My projects and homework solutions for "Python" module:
 `05_pandas_mini_project.ipynb` - playstore apps data analysis mini project using `pandas`  
 `06_databases.ipynb` - querying data from PostgreSQL using `pandas` and `psycopg2` library    
 `07_oop.ipynb` - Object-oriented programming basics (`OOP`)   
+`08_git.ipynb` - learning `git` and version control  
 `09_app.py` - getting familiar with `requests` and `FastAPI`   
