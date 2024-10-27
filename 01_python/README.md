@@ -12,3 +12,4 @@ My projects and homework solutions for "Python" module:
 `07_oop.ipynb` - Object-oriented programming basics (`OOP`)   
 `08_git.ipynb` - learning `git` and version control  
 `09_app.py` - getting familiar with `requests` and `FastAPI`   
+`10_orm_project.py` - learning `orm` principles by using `SQLAlchemy` and continuing mastering `FastAPI`   
