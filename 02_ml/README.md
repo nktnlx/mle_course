@@ -10,4 +10,5 @@ My projects and homework solutions for "ML" module:
 `06_regularization_and_scaling.ipynb` - using `MinMaxScaler`, `Lasso` and `Ridge` linear regression models to fitght multicollinearity  
 `07_features_engineering.ipynb` - using different features engineering and features selection techniques (including `SequentialFeatureSelector`) to improve ML models quality   
 `08_data_cleaning.ipynb` - using filling missing values, removing outliers and other `data cleaning` techniques to improve model's quality     
+`10_linear_classification.ipynb` - using `Pipeline` and `GridSearchCV` to build `LogisticRegression` classification model  
 
