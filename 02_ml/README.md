@@ -11,5 +11,5 @@ My projects and homework solutions for "ML" module:
 `07_features_engineering.ipynb` - using different features engineering and features selection techniques (including `SequentialFeatureSelector`) to improve ML models quality   
 `08_data_cleaning.ipynb` - using filling missing values, removing outliers and other `data cleaning` techniques to improve model's quality     
 `10_linear_classification.ipynb` - using `Pipeline` and `GridSearchCV` to build `LogisticRegression` classification model   
-`11_confusion_matrix.ipynb` - getting familiar with `confusion matrix`, `precision`, `recall` and `f-score` metrics  
-
+`11_confusion_matrix.ipynb` - getting familiar with `confusion matrix`, `precision`, `recall` and `f-score` metrics   
+`12_roc_auc.ipynb` - practicing how to build `roc-auc`, `precision-recall` and `calibration` curves   
