@@ -13,3 +13,4 @@ My projects and homework solutions for "ML" module:
 `10_linear_classification.ipynb` - using `Pipeline` and `GridSearchCV` to build `LogisticRegression` classification model   
 `11_confusion_matrix.ipynb` - getting familiar with `confusion matrix`, `precision`, `recall` and `f-score` metrics   
 `12_roc_auc.ipynb` - practicing how to build `roc-auc`, `precision-recall` and `calibration` curves   
+`13_svm.ipynb` - using `SVM` model to solve data classification problem   
