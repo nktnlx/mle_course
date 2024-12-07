@@ -14,4 +14,5 @@ My projects and homework solutions for "ML" module:
 `11_confusion_matrix.ipynb` - getting familiar with `confusion matrix`, `precision`, `recall` and `f-score` metrics   
 `12_roc_auc.ipynb` - practicing how to build `roc-auc`, `precision-recall` and `calibration` curves   
 `13_svm.ipynb` - using `SVM` model to solve data classification problem   
-`14_multiclass_classification` - exploring `one-vs-rest` and `one-vs-one` approaches to solve a multi-class classification problem   
+`14_multiclass_classification.ipynb` - exploring `one-vs-rest` and `one-vs-one` approaches to solve a multi-class classification problem   
+`15_dimension_reduction.ipynb` - exploring dimensionality reduction techniques using `PCA`  
