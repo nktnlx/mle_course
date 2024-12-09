@@ -16,3 +16,4 @@ My projects and homework solutions for "ML" module:
 `13_svm.ipynb` - using `SVM` model to solve data classification problem   
 `14_multiclass_classification.ipynb` - exploring `one-vs-rest` and `one-vs-one` approaches to solve a multi-class classification problem   
 `15_dimension_reduction.ipynb` - exploring dimensionality reduction techniques using `PCA`  
+`16_knn.ipynb` - learning k-nearest neighbors technique using sklearn `KNeighborsRegressor` and `KNeighborsClassifier`  
