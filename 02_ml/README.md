@@ -17,3 +17,4 @@ My projects and homework solutions for "ML" module:
 `14_multiclass_classification.ipynb` - exploring `one-vs-rest` and `one-vs-one` approaches to solve a multi-class classification problem   
 `15_dimension_reduction.ipynb` - exploring dimensionality reduction techniques using `PCA`  
 `16_knn.ipynb` - learning k-nearest neighbors technique using sklearn `KNeighborsRegressor` and `KNeighborsClassifier`  
+`17_decision_trees.ipynb` - learning decision trees basics using `DecisionTreeClassifier` and coding a `CustomFunctionTransformer` inherited from `BaseEstimator` and `TransformerMixin` sklearn base classes   
