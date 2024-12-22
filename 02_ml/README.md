@@ -19,4 +19,5 @@ My projects and homework solutions for "ML" module:
 `16_knn.ipynb` - learning k-nearest neighbors technique using sklearn `KNeighborsRegressor` and `KNeighborsClassifier`  
 `17_decision_trees.ipynb` - learning decision trees basics using `DecisionTreeClassifier` and coding a `CustomFunctionTransformer` inherited from `BaseEstimator` and `TransformerMixin` sklearn base classes   
 `18_trees_parameters_tuning.ipynb` - getting familiar with `DecisionTreeRegressor` hyperparameters and how to tune them using `GridSearchCV`  
-`19_ensembles.ipynb` - divining into `Random Forest` and other `bagging` ensembles  
+`19_ensembles.ipynb` - divining into `Random Forest` and other `bagging` ensembles    
+`20_gradient_boosting.ipynb` - exploring sklearn `GradientBoostingClassifier` all together with `catboost` and `lightGBM` gradient boosting libraries   
