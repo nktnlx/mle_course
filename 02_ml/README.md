@@ -22,3 +22,4 @@ My projects and homework solutions for "ML" module:
 `19_ensembles.ipynb` - divining into `Random Forest` and other `bagging` ensembles    
 `20_gradient_boosting.ipynb` - exploring sklearn `GradientBoostingClassifier` all together with `catboost` and `lightGBM` gradient boosting libraries    
 `21_clustering.ipynb` - using `KMeans` clustering algorithm to improve various classification models results  
+`22_rec_sys_project` - creating a recommendation system service that predicts a probability of a post to be liked by a user  
