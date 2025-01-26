@@ -10,9 +10,10 @@ from schema import PostGet
 from datetime import datetime
 
 
+# creating engine to connect to PostgresSQL db
 engine = create_engine(
-    "postgresql://robot-startml-ro:pheiph0hahj1Vaif@"
-    "postgres.lab.karpov.courses:6432/startml"
+    "postgresql:"
+    "postgres."
 )
 
 # getting path to a model
@@ -37,8 +38,8 @@ def load_models():
 def batch_load_sql(query: str) -> pd.DataFrame:
     chunksize = 200000
     engine = create_engine(
-        "postgresql://robot-startml-ro:pheiph0hahj1Vaif@"
-        "postgres.lab.karpov.courses:6432/startml"
+        "postgresql:"
+        "postgres."
     )
     conn = engine.connect().execution_options(stream_results=True)
     chunks = []
@@ -84,6 +85,7 @@ likes_df = load_liked()
 app = FastAPI()
 
 
+# FastAPI endpoint
 @app.get("/post/recommendations/", response_model=List[PostGet])
 def recommended_posts(
         id: int,
