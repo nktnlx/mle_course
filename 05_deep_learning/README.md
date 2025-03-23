@@ -8,3 +8,4 @@ My projects and homework solutions for "Deep Learning" module:
 `04-convolutional-neural-networks-part-ii.ipynb` - going deeper into convolutional neural networks    
 `05_convolutional-networks-architecture.ipynb` - exploring classical pretrained convolutional neural networks: `alexnet`, `vgg11`, `googlenet`, `resnet18`  
 `06-objects-detection.ipynb` - the very basics of objects detection  
+`07-autoencoders.ipynb` - training an autoencoder on the `MNIST` dataset and using it to generate training sample for a `Random Forest` model  
