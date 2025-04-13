@@ -6,3 +6,4 @@ My projects and homework solutions for "Statistics and A/B-testing" module:
 `03_data_distributions.ipynb` - exploring data distributions `statistics` and `correlation coefficients`  
 `04_parametric_tests.ipynb` - using parametric tests to check for a statistically significant difference in samples  
 `05_nonparametric_tests.ipynb` - using non-parametric tests to check for a statistically significant difference in samples  
+`06_kde.ipynb` - estimating probability density functions from real-world data  
