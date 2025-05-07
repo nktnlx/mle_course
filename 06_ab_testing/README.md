@@ -11,4 +11,5 @@ My projects and homework solutions for "Statistics and A/B-testing" module:
 `07_experiment_design` - the lesson assignments were in the form of a quiz (answering multiple choice questions) and did not required writing code  
 `08_experiment_simulations.ipynb` - performing `experiments simulations` to assess FPR, estimate required sample size and test power for given experiment parameters  
 `09_common_mistakes_in_ab_testing` - the lesson assignments were in the form of a quiz (answering multiple choice questions) and did not required writing code  
-`10_cuped_and_bucketing_techinques.ipynb` - exploring `CUPED` and `buckets testing` techniques 
+`10_cuped_and_bucketing_techinques.ipynb` - exploring `CUPED` and `buckets testing` techniques  
+`11_analysing_results.ipynb` - analysing results of an ab-testing experiment  
