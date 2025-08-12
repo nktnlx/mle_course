@@ -1,0 +1,1 @@
+{"model": "RandomForestRegressor", "metrics": {"mse": 0.2924527125, "r2_score": 0.5524864723023357, "mae": 0.41440625000000003}, "parameters": {"criterion": "squared_error", "max_depth": null, "max_features": "sqrt", "min_samples_split": 2, "n_estimators": 500, "random_state": 42}}
