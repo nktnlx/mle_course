@@ -116,7 +116,7 @@ The report on the latest regular run and training of the best model via Airflow 
 ## Working with the project
 
 1. Clone the repository
-2. Using `pip`, install the libraries from ``requirements.txt`  
+2. Using `pip`, install the libraries from `requirements.txt`  
 3. Initialize and configure `DVC`
 4. Initialize and configure `Airflow`
 5. Run the `dag.py` jobs via `Airflow`
@@ -125,5 +125,4 @@ The report on the latest regular run and training of the best model via Airflow 
 
 ## Conclusion
 
-This project demonstrates a complete pipeline for the development, training, deployment, and testing of a machine learning model using `Python`, `Airflow`, `DVC`, `ClearML` and `FastAPI`.  
-Thus, we have a solid foundation for deploying and using machine learning services.  
+This project demonstrates a complete pipeline for the development, training, deployment, and testing of a machine learning model using `Python`, `Airflow`, `DVC`, `ClearML` and `FastAPI`. Thus, we have a solid foundation for deploying and using machine learning services.  
