@@ -1,0 +1,13 @@
+[tool.pytest.ini_options]
+minversion = "7.4"
+addopts = "-ra -q"
+testpaths = [
+    "tests",
+]
+
+[tool.flake8]
+exclude = [
+    ".git",
+    "venv",
+    "__init__.py"
+]
