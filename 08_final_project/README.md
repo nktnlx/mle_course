@@ -63,6 +63,7 @@ At this stage, three different models were tested as a baseline solution: `Logis
 Jupyter-notebook with baseline model selection: [click here](https://colab.research.google.com/drive/1peMPQ5Oz5wo43228jzXh6ZZ5oX-72ALi?usp=sharing)
 
 ## Model Quality Improvement
+
 To improve the model's quality, the following approaches were tested:
 - `CatBoostClassifier` with hyperparameter tuning using `Optuna`
 - `CatBoostClassifier` with class imbalance correction using `SMOTE`
@@ -82,6 +83,7 @@ To improve the model's quality, the following approaches were tested:
 Jupyter-notebook with attempts to improve model's performance: [click here](https://colab.research.google.com/drive/1LvsQhyCEMZmfDPlLRBHH9aM3sIJux1eS?usp=sharing)  
 
 ## MVP Service Development Description
+
 The service is built on a modular and scalable architecture using modern technologies to ensure efficiency and ease of deployment, development, evolution, and maintenance.
 
 The FastAPI framework is used to create the endpoints, providing a high-performance backend for processing client requests and managing interactions with the service.
@@ -94,23 +96,39 @@ All components, including the API, workers, and the interface, are packaged into
 
 Prediction results and their associated data are stored in a PostgreSQL database, ensuring reliable data storage.
 
+## Installation and Launch of the Service
 
+1.  Clone the service to your computer:  
+    `git clone https://git.lab.karpov.courses/a.nikitin-8/feel_good_inc.git` <br></br>
+2.  Build the Docker image from the root folder of the cloned service:  
+    `docker-compose build` <br></br>
+3.  Start the Docker container from the root folder of the cloned service:  
+    `docker-compose up` <br></br>
+4.  In a new browser tab, enter the path to the service's UI: 
+    `http://localhost:8501/` <br></br>
+5.  The service is ready to use. <br></br>
+6.  To access the service's API documentation, enter the following path in a new browser tab:  
+    `http://0.0.0.0:8080/docs`
 
+## User Interaction with the Service
 
+![laptop](images/laptop.png)
 
+Users interact with the product through an interface built with `Streamlit`. Users can:
+- register and log in to their personal account
+- enter their current health metrics
+- get predictions for the risk of developing cardiovascular diseases
+- track their predicted risk scores over time
+- view the history of their entered data and the predictions made
+- book a check-up or a doctor's appointment in just a few clicks, upon receiving relevant recommendations or simply for preventive purposes.
 
+## Future Plans for Service Development
+The next steps in the service's development will focus on enhancing its capabilities and increasing its value for the user.
 
+A key priority is to implement personalized AI recommendations using large language models (LLM) to provide users with an analysis of their health data and actionable advice for lifestyle improvements based on their risk profiles.
 
+There are also plans to expand the service's prediction capabilities beyond cardiovascular diseases to include other conditions, such as diabetes, apnea, kidney disorders, etc. This will make the service a comprehensive health assessment tool and help attract new users.
 
+To further enhance the user experience, we plan to seek partnerships with telemedicine providers, ensuring a seamless transition from AI-driven risk assessment to professional consultations with certified doctors without leaving the service.
 
-
-
-
-
-
-
-
-
-
-
-
+To attract users to the deployed service, we will utilize online channels, including targeted Google Ads campaigns in regions where our target audience is located, with a focus on keywords related to health prevention, specific disease risk assessment, and telemedicine. These paid campaigns will be supported by articles on our own blog about the importance of prevention and early disease detection, collaborations with influencers, and the launch of referral programs.
